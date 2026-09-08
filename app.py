@@ -2,8 +2,8 @@ import streamlit as st
 import google.generativeai as genai
 
 # Konfigurasi API dengan aman
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
+genai.configure(api_key=st.secrets["AQ.Ab8RN6KFVwfFBfy47xHG-lejkD8Y8kSf4UZCxR8LOCWxwWFIiQ"])
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.title("📱 AI Caption Generator")
 
